@@ -14,7 +14,7 @@ public class CarController : MonoBehaviour
     }
     void SceneChange()
     {
-        SceneManager.LoadScene("ClearScene");
+        SceneManager.LoadScene("ClearScene"); //clearsceneìœ¼ë¡œ ì „í™˜
     }
     public void LButton()
     {
@@ -54,7 +54,7 @@ public class CarController : MonoBehaviour
         if (PlayerPrefs.GetInt("bestScore") < Score.score)
         {
             PlayerPrefs.SetInt("bestScore", Score.score);
-            print("ÃÖ°í Á¡¼ö º¯°æ");
+            print("ÃƒÃ–Â°Ã­ ÃÂ¡Â¼Ã¶ ÂºÂ¯Â°Ã¦");
         }
         Invoke("SceneChange", 1);
         move = 0;
