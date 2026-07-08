@@ -9,7 +9,7 @@ public class BestScore : MonoBehaviour
 {
     void Start()
     {
-        GetComponent<Text>().text = "best score : " + PlayerPrefs.GetInt("bestScore");
+        GetComponent<Text>().text = "best score : " + PlayerPrefs.GetInt("bestScore"); //bestscore값을 표시하기
     }
     void Update()
     {
