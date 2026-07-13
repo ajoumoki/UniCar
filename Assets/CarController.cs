@@ -16,7 +16,7 @@ public class CarController : MonoBehaviour
     {
         SceneManager.LoadScene("ClearScene"); //clearscene으로 전환
     }
-    public void LButton()
+    public void LButton() //LButton 클래스 호출 시
     {
         transform.Translate(-0.2f, 0, 0);
     }
