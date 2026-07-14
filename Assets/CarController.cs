@@ -6,13 +6,13 @@ using UnityEngine.UI;
 
 public class CarController : MonoBehaviour
 {
-    public static int move = 1;
+    public static int move = 1; //move static 필드를 1로 설정
     // Start is called before the first frame update
     void Start()
     {
         
     }
-    void SceneChange()
+    void SceneChange() //SceneChange 클래스 호출 시
     {
         SceneManager.LoadScene("ClearScene"); //clearscene으로 전환
     }
@@ -28,7 +28,7 @@ public class CarController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (move == 1)
+        if (move == 1) //만약 move값이 1이면
         {
             if (Input.GetKey(KeyCode.LeftArrow))
             {
