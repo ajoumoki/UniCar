@@ -36,7 +36,7 @@ public class CarController : MonoBehaviour
             }
             if (Input.GetKey(KeyCode.RightArrow)) //만약 오른쪽 화살표 키를 누를 시
             {
-                transform.Translate(0.2f, 0, 0);
+                transform.Translate(0.2f, 0, 0); //x값을 0.2만큼 이동하기
             }
             if (transform.position.x > 3)
             {
