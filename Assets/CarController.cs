@@ -30,7 +30,7 @@ public class CarController : MonoBehaviour
     {
         if (move == 1) //만약 move값이 1이면
         {
-            if (Input.GetKey(KeyCode.LeftArrow))
+            if (Input.GetKey(KeyCode.LeftArrow)) //만약 왼쪽 화살표 키를 누를 시
             {
                 transform.Translate(-0.2f, 0, 0);
             }
