@@ -34,7 +34,7 @@ public class CarController : MonoBehaviour
             {
                 transform.Translate(-0.2f, 0, 0); //x값을 -0.2만큼 이동하기
             }
-            if (Input.GetKey(KeyCode.RightArrow))
+            if (Input.GetKey(KeyCode.RightArrow)) //만약 오른쪽 화살표 키를 누를 시
             {
                 transform.Translate(0.2f, 0, 0);
             }
