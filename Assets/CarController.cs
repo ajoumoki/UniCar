@@ -40,7 +40,7 @@ public class CarController : MonoBehaviour
             }
             if (transform.position.x > 3) //만약 x값이 3보다 크면
             {
-                transform.Translate(-0.2f, 0, 0);
+                transform.Translate(-0.2f, 0, 0); //x값을 -0.2만큼 이동하기
             }
             if (transform.position.x < -3)
             {
