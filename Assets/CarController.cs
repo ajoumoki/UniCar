@@ -48,7 +48,7 @@ public class CarController : MonoBehaviour
             }
         }
     }
-    public void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision) //Trigger 충돌 발생 시
     {
         GetComponent<AudioSource>().Play();
         if (PlayerPrefs.GetInt("bestScore") < Score.score)
