@@ -51,7 +51,7 @@ public class CarController : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D collision) //Trigger 충돌 발생 시
     {
         GetComponent<AudioSource>().Play(); //오디오 재생하기
-        if (PlayerPrefs.GetInt("bestScore") < Score.score)
+        if (PlayerPrefs.GetInt("bestScore") < Score.score) //만약 bestScore값이 Score값보다 작으면
         {
             PlayerPrefs.SetInt("bestScore", Score.score);
             print("ÃÖ°í Á¡¼ö º¯°æ");
