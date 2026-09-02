@@ -56,7 +56,7 @@ public class CarController : MonoBehaviour
             PlayerPrefs.SetInt("bestScore", Score.score); //playerPrefs의 bestScore값을 score값으로 바꾸기
             print("ÃÖ°í Á¡¼ö º¯°æ"); //bestScore값 출력
         }
-        Invoke("SceneChange", 1);
+        Invoke("SceneChange", 1); //1초 후에 SceneChange 메소드 실행
         move = 0;
     }
 
