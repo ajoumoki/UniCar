@@ -54,7 +54,7 @@ public class CarController : MonoBehaviour
         if (PlayerPrefs.GetInt("bestScore") < Score.score) //만약 bestScore값이 Score값보다 작으면
         {
             PlayerPrefs.SetInt("bestScore", Score.score); //playerPrefs의 bestScore값을 score값으로 바꾸기
-            print("ÃÖ°í Á¡¼ö º¯°æ");
+            print("ÃÖ°í Á¡¼ö º¯°æ"); //bestScore값 출력
         }
         Invoke("SceneChange", 1);
         move = 0;
