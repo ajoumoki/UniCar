@@ -57,7 +57,7 @@ public class CarController : MonoBehaviour
             print("ÃÖ°í Á¡¼ö º¯°æ"); //bestScore값 출력
         }
         Invoke("SceneChange", 1); //1초 후에 SceneChange 메소드 실행
-        move = 0;
+        move = 0; //move값을 0으로 설정
     }
 
 }
