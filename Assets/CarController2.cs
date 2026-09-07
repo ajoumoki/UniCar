@@ -6,7 +6,7 @@ using UnityEngine;
 public class CarController2 : MonoBehaviour
 {
     public GameObject CarPrefab; //GameObject형 CarPrefab 불러오기
-    float delta = 0;
+    float delta = 0; //delta값을 0으로 지정
     public Sprite RacingCar03;
     public Sprite RacingCar04;
     public Sprite RacingCar05;
