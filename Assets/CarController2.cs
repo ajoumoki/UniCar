@@ -7,8 +7,8 @@ public class CarController2 : MonoBehaviour
 {
     public GameObject CarPrefab; //GameObject형 CarPrefab 불러오기
     float delta = 0; //delta값을 0으로 지정
-    public Sprite RacingCar03; //스트라이트 RacingCar03 연결
-    public Sprite RacingCar04;
+    public Sprite RacingCar03; //스프라이트 RacingCar03 연결
+    public Sprite RacingCar04; //스프라이트 RacingCar04 연결
     public Sprite RacingCar05;
     public Sprite RacingCar06;
     public Sprite RacingCar07;
