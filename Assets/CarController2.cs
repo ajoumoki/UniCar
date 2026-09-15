@@ -13,7 +13,7 @@ public class CarController2 : MonoBehaviour
     public Sprite RacingCar06; //스프라이트 RacingCar06 연결
     public Sprite RacingCar07; //스프라이트 RacingCar07 연결
     public Sprite RacingCar08; //스프라이트 RacingCar08 연결
-    public Sprite RacingCar09;
+    public Sprite RacingCar09; //스프라이트 RacingCar09 연결
     public Sprite RacingCar10;
     public Sprite RacingCar11;
     public Sprite RacingCar12;
