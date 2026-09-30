@@ -22,7 +22,7 @@ public class CarController2 : MonoBehaviour
     public Sprite RacingCar15; //스프라이트 RacingCar15 연결
     public Sprite RacingCar16; //스프라이트 RacingCar16 연결
     public Sprite RacingCar17; //스프라이트 RacingCar17 연결
-    public Sprite RacingCar18;
+    public Sprite RacingCar18; //스프라이트 RacingCar18 연결
     public Sprite RacingCar19;
     public Sprite RacingCar20;
     int random;
