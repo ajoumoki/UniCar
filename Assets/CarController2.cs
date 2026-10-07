@@ -26,7 +26,7 @@ public class CarController2 : MonoBehaviour
     public Sprite RacingCar19; //스프라이트 RacingCar19 연결
     public Sprite RacingCar20; //스프라이트 RacingCar20 연결
     int random; //int형 필드 random
-    int score = 0;
+    int score = 0; //int형 필드 score를 0으로 지정
     // Start is called before the first frame update
     void Start()
     {
