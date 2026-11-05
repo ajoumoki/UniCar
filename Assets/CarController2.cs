@@ -39,7 +39,7 @@ public class CarController2 : MonoBehaviour
         this.delta += Time.deltaTime; //delta에 프레임 시간을 더하기
         if (this.delta > level.CarSpan) //만약 delta값이 level코드의 CarSpan값보다 크면
         {
-            this.delta = 0;
+            this.delta = 0; //delta값 초기화하기
             GameObject go = Instantiate(CarPrefab);
 
             int random = Random.Range(3, 21);
