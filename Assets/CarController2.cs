@@ -36,7 +36,7 @@ public class CarController2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        this.delta += Time.deltaTime;
+        this.delta += Time.deltaTime; //delta에 프레임 시간을 더하기
         if (this.delta > level.CarSpan)
         {
             this.delta = 0;
