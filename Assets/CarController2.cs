@@ -45,7 +45,7 @@ public class CarController2 : MonoBehaviour
             int random = Random.Range(3, 21); //random 변수에 3에서 20중 랜덤한 값 저장
             if (random == 3) //만약 random값이 3이면
             {
-                CarPrefab.GetComponent<SpriteRenderer>().sprite = RacingCar03;
+                CarPrefab.GetComponent<SpriteRenderer>().sprite = RacingCar03; // CarPrefab의 SpriteRenderer 컴포넌트에 RacingCar03 스프라이트를 적용한다.
             }
             else if (random == 4)
             {
