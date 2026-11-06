@@ -40,7 +40,7 @@ public class CarController2 : MonoBehaviour
         if (this.delta > level.CarSpan) //만약 delta값이 level코드의 CarSpan값보다 크면
         {
             this.delta = 0; //delta값 초기화하기
-            GameObject go = Instantiate(CarPrefab);
+            GameObject go = Instantiate(CarPrefab); // CarPrefab을 복제하여 새로운 게임 오브젝트를 생성하고 go 변수에 저장
 
             int random = Random.Range(3, 21);
             if (random == 3)
