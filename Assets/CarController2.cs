@@ -63,7 +63,7 @@ public class CarController2 : MonoBehaviour
             {
                 CarPrefab.GetComponent<SpriteRenderer>().sprite = RacingCar07; // CarPrefab의 SpriteRenderer 컴포넌트에 RacingCar07 스프라이트를 적용한다.
             }
-            else if (random == 8)
+            else if (random == 8) //만약 random값이 8면
             {
                 CarPrefab.GetComponent<SpriteRenderer>().sprite = RacingCar08;
             }
